@@ -1,7 +1,9 @@
 //This jenkins pipeline can be used to build the docker image and push to docker hub
 pipeline {
     agent any
-    tool name: 'docker', type: 'dockerTool'
+    tools {
+        tool name: 'docker', type: 'dockerTool'
+    }
     stages {
         stage ('Code checkout from repo') {
             steps {
