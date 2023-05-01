@@ -12,6 +12,11 @@ pipeline {
                 echo 'building docker image using docker build command'
             }
         }
+        stage ('List the local docker images'){
+            steps {
+                docker images ls
+            }
+        }
         stage ('Push image to Docker Hub'){
             when {
                 branch 'main'
