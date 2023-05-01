@@ -1,4 +1,4 @@
-# This jenkins pipeline can be used to build the docker image and push to docker hub
+//This jenkins pipeline can be used to build the docker image and push to docker hub
 pipeline {
     agent any
     stages {
