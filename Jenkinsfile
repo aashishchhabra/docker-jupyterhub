@@ -2,7 +2,7 @@
 pipeline {
     agent any
     tools {
-        tool name: 'docker', type: 'dockerTool'
+        docker 'dockerTool'
     }
     stages {
         stage ('Code checkout from repo') {
