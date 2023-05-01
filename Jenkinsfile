@@ -2,7 +2,7 @@
 pipeline {
     agent any
     tools {
-        dockerTool 'org.jenkinsci.plugins.docker.commons.tools.DockerTool'
+        dockerTool 'docker'
     }
     stages {
         stage ('Code checkout from repo') {
