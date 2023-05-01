@@ -14,7 +14,7 @@ pipeline {
         }
         stage ('List the local docker images'){
             steps {
-                docker images ls
+                sh 'docker images ls'
             }
         }
         stage ('Push image to Docker Hub'){
