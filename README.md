@@ -15,8 +15,8 @@ This repository is equipped with a GitHub Actions workflow named "Docker Image C
 
 2. **Build Docker Image:**
    - Runs on an Ubuntu-latest environment.
-   - Executes the \`docker build\` command to build the Docker image using the provided Dockerfile.
-   - Tags the image with the format \`aashishchhabra/jupyterhub:<timestamp>\` to uniquely identify each build.
+   - Executes the `docker build` command to build the Docker image using the provided Dockerfile.
+   - Tags the image with the format `aashishchhabra/jupyterhub:<timestamp>` to uniquely identify each build.
 
 ### Usage
 
