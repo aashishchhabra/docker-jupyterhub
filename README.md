@@ -11,7 +11,7 @@ This repository is equipped with a GitHub Actions workflow named "Docker Image C
 #### Workflow Steps:
 
 1. **Checkout Code:**
-   - Uses the \`actions/checkout\` action to fetch the latest code from the repository.
+   - Uses the `actions/checkout` action to fetch the latest code from the repository.
 
 2. **Build Docker Image:**
    - Runs on an Ubuntu-latest environment.
