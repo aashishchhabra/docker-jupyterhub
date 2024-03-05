@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a Dockerfile used to build a customized JupyterHub Docker image. The primary goal of this customization is to address specific bugs present in the default JupyterHub image provided by the community. The bugs were causing issues with spawning notebooks, and this Dockerfile ensures a smooth and bug-free JupyterHub experience.
+This repository contains a Dockerfile used to build a customized JupyterHub Docker image. The primary goal of this customization is to address specific bugs present in the default JupyterHub image provided by the community. The bugs were causing issues with spawning notebooks, and this Dockerfile ensures a smooth and bug-free JupyterHub experience. The bugs might be specific to the version that I have been using.
 
 ## Features
 
